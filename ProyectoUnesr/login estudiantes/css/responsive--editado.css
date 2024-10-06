@@ -1,0 +1,81 @@
+/* Estilos por defecto */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login {
+  width: 400px;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.login-header {
+  text-align: center;
+}
+
+.login-container {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilos para dispositivos con una resolución máxima de 768px */
+@media screen and (max-width: 768px) {
+  .login {
+    width: 80%;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+}
+
+/* Estilos para dispositivos con una resolución máxima de 480px */
+@media screen and (max-width: 480px) {
+  .login {
+    width: 90%;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-size: 14px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    font-size: 14px;
+  }
+  
+  .submit-button {
+    padding: 8px;
+  }
+}

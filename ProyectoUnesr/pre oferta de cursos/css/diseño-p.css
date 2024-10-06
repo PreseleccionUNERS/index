@@ -1,0 +1,136 @@
+/* Estilos generales */
+body {
+    background-color: #eee;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #B0B8F8;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+/* Estilos para el formulario */
+.form-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container h2 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.form-container select {
+    border: 5px;
+    border-color: #343131;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Estilos para la lista de cursos */
+.course-list {
+    margin-bottom: 20px;
+}
+
+.course-list h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la tabla */
+.table-crud {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table-crud th,
+.table-crud td {
+    background-color: #fff;
+    padding: 20px 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    color: #333;
+}
+
+.table-crud th {
+    background-color: #C8CEFB;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #B0B8F8;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Estilos para el icono en la tabla */
+.icon_tabla {
+    width: 15px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.icono-tabla img {
+    width: 20px;
+}
+
+/* Estilos responsive para pantallas pequeñas */
+@media only screen and (max-width: 768px) {
+    .logo {
+        max-width: 150px;
+    }
+
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+
+    .table-crud {
+        font-size: 0.8rem;
+    }
+
+    .icono-tabla img {
+        width: 15px;
+    }
+}
+
+.btn-verificar {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #080bbd;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}

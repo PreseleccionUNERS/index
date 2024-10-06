@@ -1,0 +1,157 @@
+body {
+  background-image: url(../IMG/uni_fondo.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  color: #181717;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+
+  text-align: center;
+  padding: 12px;
+  color: #cecbcb;
+}
+
+a:visited {
+  color: #16457a;
+}
+
+a:active {
+  background: #8a1010;
+  color: #fdfdfd;
+}
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Ajusta el último valor (0.5) para cambiar la opacidad */
+  z-index: -1;
+}
+.ok,
+.bad,
+.fancy {
+  text-align: center;
+  width: 100%;
+  padding: 12px;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.form-icon {
+  padding-right: 5px;
+  padding-top: 8px;
+}
+
+.ok {
+  background-color: rgb(17, 50, 238);
+}
+
+.bad {
+  background-color: #a22;
+}
+
+.fancy {
+  background-color: rgb(58, 100, 190);
+}
+
+.blanco {
+  color: white;
+  text-align: center;
+}
+
+.mensaje {
+  width: 100%;
+  max-width: 350px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: left;
+  padding: 6px;
+  color: red;
+}
+
+.login {
+  width: 400px;
+  margin: 25px auto;
+  font-size: 17px;
+  background-color: #F0EBEB;
+  border-radius: 30px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-header {
+  background: #17305D;
+  padding: 15px;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.login-container {
+  padding: 15px;
+}
+
+.login p {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.login input,
+.login select {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-size: 0.95em;
+  border-radius: 4px;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+  background: #fff;
+  color: #555;
+}
+
+.login input[type="email"]:focus,
+.login input[type="password"]:focus,
+.login select[name="cargo"]:focus {
+  border-color: #888;
+}
+
+.login input[type="submit"] {
+  background: #17305D;
+  border: none;
+  color: #fff;
+  padding: 12px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 8px;
+}
+
+.login input[type="submit"]:hover {
+  background: #214484;
+}
+
+.login input[type="submit"]:focus {
+  outline: none;
+  border-color: rgb(33, 70, 139);
+}
+
+.image-container {
+  background-image: url(../IMG/Logo_unesr_valera-removebg-preview.png); /* Reemplaza "ruta-a-tu-imagen.png" con la ruta y nombre de tu imagen PNG */
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px; /* Ajusta la altura según tus necesidades */
+}

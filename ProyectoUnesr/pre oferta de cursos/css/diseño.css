@@ -1,0 +1,94 @@
+body {
+    background-image: url(../IMG/uni_fondo.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajusta el último valor (0.5) para cambiar la opacidad */
+    z-index: -1;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(242, 242, 242, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.course-list {
+    margin-top: 20px;
+}
+
+.table-crud {
+    margin: 20px auto;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.table-crud th, .table-crud td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.table-crud th {
+    background-color: #092394;
+    color: #ffffff;
+}
+
+.table-crud tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.icono-tabla img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.btn-agregar-curso {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #092394;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-agregar-curso:hover {
+    background-color: #075e9f;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .table-crud th, .table-crud td {
+        padding: 8px;
+    }
+}

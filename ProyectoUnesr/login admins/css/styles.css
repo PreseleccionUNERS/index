@@ -1,0 +1,17 @@
+body {
+  background-image: url(../IMG/uni_fondo.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  color: #181717;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.login {
+  width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 4px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}

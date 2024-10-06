@@ -1,0 +1,23 @@
+@media only screen and (max-width: 768px) {
+    /* Estilos para resoluciones de pantalla bajas */
+    
+    /* Ajustar tamaño de la imagen del logo */
+    .logo {
+        width: 50%;
+    }
+    
+    /* Ajustar tamaño de los títulos principales */
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+    
+    /* Ajustar tamaño de la tabla */
+    .table-crud {
+        font-size: 0.8rem;
+    }
+    
+    /* Ajustar tamaño de los iconos en la tabla */
+    .icono-tabla img {
+        width: 20px;
+    }
+}
